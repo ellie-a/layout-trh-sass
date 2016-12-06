@@ -1,0 +1,11 @@
+
+
+// div {
+//   border: 1px dashed black;
+// }
+
+body {
+ font-family: $main-font;
+ background-color: rgb(219, 219, 219);
+ @include reset;
+}

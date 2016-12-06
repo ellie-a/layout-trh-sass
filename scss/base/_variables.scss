@@ -1,0 +1,24 @@
+//Colors
+$white          : #fff;
+$black          : #000;
+$grey           : #878787;
+$blue           : rgb(37, 89, 125);
+$light-blue     : rgb(48, 121, 171);
+
+$nav-background : rgb(62, 71, 79);
+$prim-text : $grey;
+$header-text : $black;
+
+
+// Media queries
+$brk-narrow : '(max-width: 768px)';
+$brk-wide : '(max-width: 1024x)';
+
+// Asset Paths
+
+$path-img : '../img';
+
+
+// Main font
+
+$main-font : 'Quicksand', sans-serif;

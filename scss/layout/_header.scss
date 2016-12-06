@@ -1,0 +1,26 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: $nav-background;
+}
+
+.nav ul {
+
+  list-style: none;
+  color: $prim-text;
+  font-size: 1em;
+}
+
+.nav li {
+  display: inline-block;
+
+}
+
+.nav li:nth-child(-n+4) {
+
+
+}

@@ -1,0 +1,97 @@
+
+
+.container {
+  height: 90%;
+  width: 90%;
+  margin: 5% auto;
+  // @include clearfix;
+  overflow: hidden;
+  background-color: $white;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+
+}
+
+.title-box {
+  background-color: $blue;
+  height: 700px;
+  width: 100%;
+
+  // @include clearfix;
+}
+
+.top-bar {
+  height: 15%;
+  background-color: $light-blue;
+  width: 100%;
+  color: $white;
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  text-align: right;
+  flex-direction: row-reverse;
+}
+
+.minutes {
+  margin-right: 5%;
+
+}
+
+
+// .title-box-content {
+//   text-align: center;
+//   color: $white;
+//
+//
+// }
+
+.title-box-content {
+  text-align: center;
+  color: $white;
+  position: relative;
+  margin: auto;
+  top: 30%;
+  h4 {
+    color: $light-blue;
+  }
+}
+
+.main-content {
+  height: 500px;
+  width: 100%;
+
+}
+
+.main-title {
+  width: 100%;
+  height: 100px;
+}
+
+.content {
+  padding: 5%;
+}
+
+.about {
+  width: 65%;
+  float: left;
+}
+
+.teacher {
+  width: 35%;
+  float: right;
+}
+
+.check {
+  background-image: url('#{$path-img}/check.png');
+  height: 100px;
+  width: 25%;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.description {
+  width: 75%;
+  float: right;
+}
