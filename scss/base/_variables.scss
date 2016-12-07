@@ -8,6 +8,7 @@ $light-blue     : rgb(48, 121, 171);
 $nav-background : rgb(62, 71, 79);
 $prim-text : $grey;
 $header-text : $black;
+$light-grey : lighten($grey, 35%);
 
 
 // Media queries
@@ -17,7 +18,6 @@ $brk-wide : '(max-width: 1024x)';
 // Asset Paths
 
 $path-img : '../img';
-
 
 // Main font
 
